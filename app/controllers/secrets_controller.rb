@@ -2,7 +2,7 @@ class SecretsController < ApplicationController
   before_action :logged_in
 
   def show
-    
+    @current_user = current_user
   end
 
   private
